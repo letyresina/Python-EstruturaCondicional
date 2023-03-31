@@ -10,5 +10,7 @@ elif(num2 < num1 and num2 < num3):
     print(f"O menor número é {num2}")
 elif(num3 < num1 and num3 < num2):
     print(f"O menor número é {num3}")
-else:
+elif (num1 == num2) and (num2 == num3):
     print("Números iguais")
+else:
+    print("Dois números iguais")
